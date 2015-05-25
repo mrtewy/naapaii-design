@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "ThaiSansNeueRegular";
+    src: url("/m/ThaiSansNeue-Regular.woff") format("woff"), 
+         url("/m/ThaiSansNeue-Regular.svg") format("svg");
+}
+
+.nav-center {
+    margin:0;
+    float:none;
+}
+
+.navbar-inner{
+    text-align:center;
+}
+
+/* navbar */
+/* #dc9b29 */
+.container
+{
+	max-width: 980px;
+}
+.navbar-style > a
+{
+	font-size: 30px;
+	font-weight: bold;
+}
+.navbar{
+	max-height: 51px;
+}
+.navbar-style .glyphicon 
+{
+	color: #593900;
+}
+.navbar-style > a > span
+{
+	position: relative;
+	top: -5px;
+	letter-spacing: 2px;
+	left: 5px;
+}
+.navbar-default .navbar-nav>li>a
+{
+	font-family: "ThaiSansNeueRegular";
+	color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover
+{
+	background-color: #DDAD26;
+	border-left: 1px solid #C28F36;
+	border-right:1px solid #C28F36;
+}
+.navbar-default {
+  background-color: #dc9b29;
+  border-color: #e7e7e7;
+  border-bottom: 1px solid #C28F36;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav>li>a {
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	}
+}
