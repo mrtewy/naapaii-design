@@ -61,3 +61,10 @@
 	  padding-bottom: 10px;
 	}
 }
+
+article.frontpage
+{
+	background-color: #dc9b29;
+	border-bottom: 1px solid #C28F36;
+	min-height: 300px;
+}
