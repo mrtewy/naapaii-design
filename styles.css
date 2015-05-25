@@ -4,6 +4,10 @@
          url("/m/ThaiSansNeue-Regular.svg") format("svg");
 }
 
+body
+{
+	background-color: #f7f7f7;
+}
 .nav-center {
     margin:0;
     float:none;
@@ -62,9 +66,32 @@
 	}
 }
 
-article.frontpage
+article.topPage
 {
-	background-color: #dc9b29;
-	border-bottom: 1px solid #C28F36;
-	min-height: 300px;
+	/*background-color: #dc9b29;*/
+	background-color: #fff;
+	border-bottom: 1px solid #ebebeb;
+	min-height: 250px;
+}
+
+#contents
+{
+	margin-left: 14px;
+}
+
+.topPage .maincontent
+{
+	padding-top: 40px;
+}
+.topPage .maincontent i.glyphicon
+{
+	font-size: 20px;
+}
+.topPage .maincontent h1
+{
+	font-family: "ThaiSansNeueRegular";
+	font-size: 28px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #593900;
 }
